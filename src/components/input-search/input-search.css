@@ -1,0 +1,12 @@
+.border-bottom-black{
+    border-bottom: 1px solid black;
+}
+
+.input-search{
+    width: 100%;
+    border: 0px;
+}
+
+.input-search:focus{
+    outline: none;
+}

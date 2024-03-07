@@ -1,0 +1,29 @@
+.hero-biography-wrapper {
+	color: #ffffff;
+	padding: 0px 20%;
+}
+
+.hero-biography-image {
+	height: 100%;
+	max-height: 300px;
+}
+
+.hero-biography-name {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.hero-biography-name-wrapper {
+	min-width: 70%;
+}
+
+@media (max-width: 700px) {
+	.hero-biography-image {
+		width: 100%;
+		max-height: none;
+	}
+	.hero-biography-wrapper {
+		flex-direction: column;
+		padding: 0px;
+	}
+}

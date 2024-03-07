@@ -1,0 +1,30 @@
+.hero-comics-wrapper {
+	padding: 20px 20%;
+}
+
+.hero-comics-list {
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	cursor: grab;
+	touch-action: none;
+}
+
+::-webkit-scrollbar {
+	height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #cccccc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #ec1d24;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}

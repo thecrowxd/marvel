@@ -1,0 +1,17 @@
+.comic-card-wrapper {
+	margin: 20px 10px;
+	max-width: 150px;
+}
+
+.comic-card-thumbnail {
+	height: 250px;
+	width: 150px;
+}
+
+.comic-card-title {
+	font-weight: bold;
+}
+
+.comic-card-year {
+	font-size: 0.8em;
+}
