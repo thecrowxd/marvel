@@ -3,7 +3,7 @@ import "./hero-card.css"
 import { Link } from "react-router-dom"
 import FavoriteHeart from "../favorite-heart/FavoriteHeart"
 import Triangle from "../../images/triangle.png"
-const HeroCard = (props) => {
+const HeroCard = React.memo((props) => {
 	return (
 		<div className="hero-card-wrapper">
 			<Link to={`/hero/${props.data.id}`}>

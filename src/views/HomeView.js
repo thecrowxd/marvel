@@ -53,8 +53,8 @@ const Home = () => {
 				<InputSearch handleInputSearch={handleInputSearch} />
 				<TotalResultsSearch totalAmount={data.count} />
 				<div className="flex flex-wrap">
-					{data?.results?.map((hero, index) => (
-						<HeroCard data={hero} key={index} />
+					{data?.results?.map((hero) => (
+						<HeroCard data={hero} key={hero.id} />
 					))}
 				</div>
 			</div>
